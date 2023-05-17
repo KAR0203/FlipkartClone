@@ -3,6 +3,8 @@
 * {
     margin: 0;
     padding: 0;
+    border: #878787;
+    color: violet;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -37,6 +39,7 @@ header .nav-container .logo {
 }
 header .nav-container .logo img{
     width: 75px;
+    height:auto;
 }
 
 header .search {
@@ -72,7 +75,9 @@ header .search .search-container button {
     cursor: pointer;
 }
 
-header .login {
+header .login  {
+    color:aliceblue;
+    
     height: 100%;
     display: flex;
     align-items: center;
@@ -253,7 +258,9 @@ header .cart svg {
     justify-content: space-between;
 }
 .section-5 img {
-    width: 33%;
+    
+    height:auto;
+    width:auto;
 }
 
 /* footer */
@@ -265,3 +272,7 @@ footer {
     font-size: 14px;
     color: #878787 ;
 }
+.login:hover{
+    color: black;
+}
+
